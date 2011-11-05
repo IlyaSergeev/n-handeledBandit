@@ -24,21 +24,6 @@
 	}
 	[self clear];
 }
-//
-//-(int)handsCount
-//{
-//	return [super handsCount];
-//}
-//
-//-(void)setDefaultFee:(double)newFee
-//{
-//	[super setDefaultFee:newFee];
-//}
-//
-//-(double)defaultFee
-//{
-//	return [super defaultFee];
-//}
 
 -(void)setN:(int)N
 {

@@ -9,10 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 
-@protocol IStrategy
+@protocol IStrategy <NSObject>
 
-@property int handsCount;
-@property double defaultFee;
+- (int)handsCount;
+- (void)setHandsCount:(int)handsCount;
+
+- (double)defaultFee;
+- (void)setDefaultFee:(double)defaultFee;
 
 -(int)nextHandle;
 -(void)updateFee:(double)theFee toHandle:(int)handNum;

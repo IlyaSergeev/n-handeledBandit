@@ -35,8 +35,8 @@
 
 -(IBAction)NSLog:(id)sender
 {
-	[super NSlog:self];
-	NSLog(@"temperature=%F", [self temperature]);
+	[super NSLog:self];
+	NSLog(@"temperature=%f", [self temperature]);
 }
 
 @end

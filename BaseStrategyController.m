@@ -45,7 +45,7 @@
 
 -(IBAction)NSLog:(id)sender
 {
-	NSLog(@"isActive=%@ color=%i", isActive?@"YES":@"NO", color);
+	NSLog(@"isActive=%@ color=%@", isActive?@"YES":@"NO", color);
 }
 
 @end
