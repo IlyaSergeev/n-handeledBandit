@@ -40,10 +40,12 @@
 
 -(id)initWithMean:(double)theMean variance:(double)theVariance
 {
-	[super init];
-	mean = theMean;
-	variance = theVariance;
-	
+	self = [super init];
+	if (self != nil)
+	{
+		mean = theMean;
+		variance = theVariance;
+	}
 	return self;
 }
 
@@ -82,7 +84,7 @@
 	double m = [NormDistribution nextDoubleWithMean:0 withVariance:1];
 	double var = 1;
 	
-	return [[NormDistribution alloc] initWithMean:m variance:var];
+	return [[[NormDistribution alloc] initWithMean:m variance:var] autorelease];
 }
 
 #pragma mark -

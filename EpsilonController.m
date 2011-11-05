@@ -14,9 +14,12 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	strategy = [[EpsilonStrategy alloc] init];
-	[self setColor:[NSColor blueColor]];
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = [[EpsilonStrategy alloc] init];
+		[self setColor:[NSColor blueColor]];
+	}
 	return self;
 }
 

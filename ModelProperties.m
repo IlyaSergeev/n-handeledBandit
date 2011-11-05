@@ -17,12 +17,13 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	
-	[self setHandsCount:10];
-	[self setTestsCount:1000];
-	[self setRecreationCount:100];
-		
+	self = [super init];
+	if (self != nil)
+	{
+		[self setHandsCount:10];
+		[self setTestsCount:1000];
+		[self setRecreationCount:100];
+	}	
 	 return self;
 }
 

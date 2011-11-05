@@ -13,9 +13,12 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	strategy = [[GreedyStrategy alloc] init];
-	[self setColor:[NSColor redColor]];
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = [[GreedyStrategy alloc] init];
+		[self setColor:[NSColor redColor]];
+	}
 	return self;
 }
 

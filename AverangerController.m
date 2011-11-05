@@ -14,9 +14,12 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	strategy = [[AverangeStrategy alloc] init];
-	[self setColor:[NSColor greenColor]];
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = [[AverangeStrategy alloc] init];
+		[self setColor:[NSColor greenColor]];
+	}
 	return self;
 }
 

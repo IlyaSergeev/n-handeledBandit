@@ -14,25 +14,21 @@
 #pragma mark creation and release
 -(id)init
 {
-	if (![super init]) return nil;
-	testerConrollers = [[NSMutableArray alloc] init];
-	
-	for (int i = 0; i < 4; ++i)
+	self = [super init];
+	if (self != nil)
 	{
-		[testerConrollers addObject:[[TesterController alloc] init]];
+		testerConrollers = [[NSMutableArray alloc] init];
+		
+		for (int i = 0; i < 4; ++i)
+		{
+			[testerConrollers addObject:[[TesterController alloc] init]];
+		}
 	}
-	
 	return self;
 }
 
 -(void)dealloc
-{
-	int count = [testerConrollers count];
-	for (int i = 0; i < count; ++i)
-	{
-		[[testerConrollers objectAtIndex:i] release];
-	}
-	
+{	
 	[testerConrollers release];
 	[super dealloc];
 }

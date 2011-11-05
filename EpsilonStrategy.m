@@ -13,8 +13,11 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	epsilon = 0.1;
+	self = [super init];
+	if (self != nil)
+	{
+		epsilon = 0.1;
+	}
 	return self;
 }
 
@@ -24,10 +27,12 @@
 	{
 		int res = rand() % (handsCount-1);
 		if (res >= [super nextHandle])
-			return res++;
+		{
+			res++;
+		}
 		return res;
 	}
-	else return 0;
+	return 0;
 }
 
 -(int)nextHandle

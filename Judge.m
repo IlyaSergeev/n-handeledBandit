@@ -23,22 +23,24 @@
 
 -(id)init
 {
-	if ([super init] == nil) return nil;
-	
-	bandit = [[BanditModel alloc] init];
-	strategy = nil;
-	logger = nil;
-	
+	self = [super init];
+	if (self != nil)
+	{
+		bandit = [[BanditModel alloc] init];
+		strategy = nil;
+		logger = nil;
+	}
 	return self;
 }
 
 -(id)initWithModel:(id<INBandit>)theBandit strategy:(id <IStrategy>)theStrategy
 {
-	if (![self init]) return nil;
-	
-	[self setBandit:theBandit];
-	[self setStrategy:theStrategy];
-	
+	self = [super init];
+	if (self != nil)
+	{
+		[self setBandit:theBandit];
+		[self setStrategy:theStrategy];
+	}
 	return self;
 }
 

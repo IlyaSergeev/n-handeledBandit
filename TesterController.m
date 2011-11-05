@@ -15,11 +15,12 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	
-	strategy = nil;
-	judge = [[Judge alloc] init];
-	
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = nil;
+		judge = [Judge new];
+	}
 	return self;
 }
 

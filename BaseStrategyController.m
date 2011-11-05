@@ -13,9 +13,12 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	strategy = nil;
-	[self setIsActive:YES];
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = nil;
+		[self setIsActive:YES];
+	}
 	return self;
 }
 

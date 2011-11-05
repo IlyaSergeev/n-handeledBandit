@@ -47,10 +47,13 @@
 
 -(id)init
 {
-	if ([super init] == nil) return nil;
-	defaultFee = 0.0;
-	[self setHandsCount:0];
-	[self setAlpha:0.02];
+	self = [super init];
+	if (self != nil)
+	{
+		defaultFee = 0.0;
+		[self setHandsCount:0];
+		[self setAlpha:0.02];
+	}
 	return self;
 }
 

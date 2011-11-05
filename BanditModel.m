@@ -16,18 +16,21 @@
 
 -(id)init
 {
-	if ([super init] == nil)
+	self = [super init];
+	if (self != nil)
 	{
-		return nil;
+		array = [[NSMutableArray alloc] init];
 	}
-	array = [[NSMutableArray alloc] init];
 	return self;
 }
 
 -(id)initWith:(int)handsCount
 {
-	if (![self init]) return nil;
-	[self createBanditWith:handsCount];
+	self = [super init];
+	if (self != nil)
+	{
+		[self createBanditWith:handsCount];
+	}
 	return self;
 }
 

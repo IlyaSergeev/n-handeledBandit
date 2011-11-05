@@ -14,11 +14,13 @@
 
 -(id)init
 {
-	if (![super init]) return nil;
-	[strategy release];
-	strategy = [[SoftmaxStrategy alloc] init];
-	[(SoftmaxStrategy*)strategy setTemperature:1];
-	[self setColor:[NSColor orangeColor]];
+	self = [super init];
+	if (self != nil)
+	{
+		strategy = [[SoftmaxStrategy alloc] init];
+		[(SoftmaxStrategy*)strategy setTemperature:1];
+		[self setColor:[NSColor orangeColor]];
+	}
 	return self;
 }
 
