@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091EF7341146FBDE00B395A4 /* AverangeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EF7321146FBDE00B395A4 /* AverangeStrategy.m */; };
+		091EF7381146FC0000B395A4 /* BaseStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EF7361146FC0000B395A4 /* BaseStrategy.m */; };
+		091EF7EF114705EA00B395A4 /* AverangerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EF7ED114705EA00B395A4 /* AverangerController.m */; };
+		091EF83F11470C3500B395A4 /* SoftmaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EF83D11470C3500B395A4 /* SoftmaxStrategy.m */; };
+		091EF856114711A100B395A4 /* SoftmaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EF854114711A100B395A4 /* SoftmaxController.m */; };
+		093034D611457410003AB62D /* GreedyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093034D511457410003AB62D /* GreedyController.m */; };
+		0930352911457959003AB62D /* BaseStrategyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093034F811457683003AB62D /* BaseStrategyController.m */; };
+		0930357211457E64003AB62D /* EpsilonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0930356911457D5E003AB62D /* EpsilonController.m */; };
+		093035D511459120003AB62D /* StratigesArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 093035D411459120003AB62D /* StratigesArray.m */; };
+		093035F81145987F003AB62D /* TesterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093035F71145987F003AB62D /* TesterController.m */; };
+		0930371A1145B6DE003AB62D /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 093037191145B6DE003AB62D /* MyDocument.m */; };
+		099A636F1133F3BC00EE57C6 /* NormDistribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 099A636E1133F3BC00EE57C6 /* NormDistribution.m */; };
+		09B3D5561139C6D5004E429E /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B3D5541139C6D5004E429E /* Judge.m */; };
+		09C0CF2C1142B160003AA4AD /* StaticView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C0CF2A1142B160003AA4AD /* StaticView.m */; };
+		09C0D2CD1143181B003AA4AD /* BanditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0976D4F51135CBA7001D8EF9 /* BanditModel.m */; };
+		09C0D30F11431A01003AA4AD /* GreedyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B3D4EB1138739A004E429E /* GreedyStrategy.m */; };
+		09DBE0551143FD5F00A56322 /* EpsilonStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DBE0541143FD5F00A56322 /* EpsilonStrategy.m */; };
+		09DBE39B1144376300A56322 /* ModelProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DBE39A1144376300A56322 /* ModelProperties.m */; };
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091EF7311146FBDE00B395A4 /* AverangeStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AverangeStrategy.h; sourceTree = "<group>"; };
+		091EF7321146FBDE00B395A4 /* AverangeStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AverangeStrategy.m; sourceTree = "<group>"; };
+		091EF7351146FC0000B395A4 /* BaseStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStrategy.h; sourceTree = "<group>"; };
+		091EF7361146FC0000B395A4 /* BaseStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStrategy.m; sourceTree = "<group>"; };
+		091EF7EC114705EA00B395A4 /* AverangerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AverangerController.h; sourceTree = "<group>"; };
+		091EF7ED114705EA00B395A4 /* AverangerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AverangerController.m; sourceTree = "<group>"; };
+		091EF83C11470C3500B395A4 /* SoftmaxStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftmaxStrategy.h; sourceTree = "<group>"; };
+		091EF83D11470C3500B395A4 /* SoftmaxStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftmaxStrategy.m; sourceTree = "<group>"; };
+		091EF853114711A100B395A4 /* SoftmaxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftmaxController.h; sourceTree = "<group>"; };
+		091EF854114711A100B395A4 /* SoftmaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftmaxController.m; sourceTree = "<group>"; };
+		093034D411457410003AB62D /* GreedyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreedyController.h; sourceTree = "<group>"; };
+		093034D511457410003AB62D /* GreedyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreedyController.m; sourceTree = "<group>"; };
+		093034D91145750F003AB62D /* IStrategyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStrategyController.h; sourceTree = "<group>"; };
+		093034F711457683003AB62D /* BaseStrategyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStrategyController.h; sourceTree = "<group>"; };
+		093034F811457683003AB62D /* BaseStrategyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStrategyController.m; sourceTree = "<group>"; };
+		0930356811457D5E003AB62D /* EpsilonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpsilonController.h; sourceTree = "<group>"; };
+		0930356911457D5E003AB62D /* EpsilonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpsilonController.m; sourceTree = "<group>"; };
+		093035D311459120003AB62D /* StratigesArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StratigesArray.h; sourceTree = "<group>"; };
+		093035D411459120003AB62D /* StratigesArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StratigesArray.m; sourceTree = "<group>"; };
+		093035F61145987F003AB62D /* TesterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesterController.h; sourceTree = "<group>"; };
+		093035F71145987F003AB62D /* TesterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TesterController.m; sourceTree = "<group>"; };
+		093037181145B6DE003AB62D /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		093037191145B6DE003AB62D /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		094470AF1135910F00C42FC3 /* NBanditTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBanditTests-Info.plist"; sourceTree = "<group>"; };
+		0944710F1135B24100C42FC3 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		0976D4F41135CBA7001D8EF9 /* BanditModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanditModel.h; sourceTree = "<group>"; };
+		0976D4F51135CBA7001D8EF9 /* BanditModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanditModel.m; sourceTree = "<group>"; };
+		099A636D1133F3BC00EE57C6 /* NormDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormDistribution.h; sourceTree = "<group>"; };
+		099A636E1133F3BC00EE57C6 /* NormDistribution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormDistribution.m; sourceTree = "<group>"; };
+		09B3D49B11386F94004E429E /* IStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStrategy.h; sourceTree = "<group>"; };
+		09B3D4A011387003004E429E /* INBandit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INBandit.h; sourceTree = "<group>"; };
+		09B3D4EA1138739A004E429E /* GreedyStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreedyStrategy.h; sourceTree = "<group>"; };
+		09B3D4EB1138739A004E429E /* GreedyStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreedyStrategy.m; sourceTree = "<group>"; };
+		09B3D5531139C6D5004E429E /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		09B3D5541139C6D5004E429E /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
+		09C0CF291142B160003AA4AD /* StaticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticView.h; sourceTree = "<group>"; };
+		09C0CF2A1142B160003AA4AD /* StaticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticView.m; sourceTree = "<group>"; };
+		09DBE0531143FD5F00A56322 /* EpsilonStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpsilonStrategy.h; sourceTree = "<group>"; };
+		09DBE0541143FD5F00A56322 /* EpsilonStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpsilonStrategy.m; sourceTree = "<group>"; };
+		09DBE3991144376300A56322 /* ModelProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelProperties.h; sourceTree = "<group>"; };
+		09DBE39A1144376300A56322 /* ModelProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelProperties.m; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* n_Handeled_Bandit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = n_Handeled_Bandit_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* n_Handeled_Bandit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "n_Handeled_Bandit-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* n-Handeled Bandit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "n-Handeled Bandit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091EF7301146FBBC00B395A4 /* Averanger */ = {
+			isa = PBXGroup;
+			children = (
+				091EF7311146FBDE00B395A4 /* AverangeStrategy.h */,
+				091EF7321146FBDE00B395A4 /* AverangeStrategy.m */,
+			);
+			name = Averanger;
+			sourceTree = "<group>";
+		};
+		091EF84011470C3B00B395A4 /* Softmax */ = {
+			isa = PBXGroup;
+			children = (
+				091EF83C11470C3500B395A4 /* SoftmaxStrategy.h */,
+				091EF83D11470C3500B395A4 /* SoftmaxStrategy.m */,
+			);
+			name = Softmax;
+			sourceTree = "<group>";
+		};
+		091EF84111470C4700B395A4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				091EF7351146FC0000B395A4 /* BaseStrategy.h */,
+				091EF7361146FC0000B395A4 /* BaseStrategy.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		093034D811457434003AB62D /* Strategies controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0930352C1145796C003AB62D /* Base */,
+				093034D411457410003AB62D /* GreedyController.h */,
+				093034D511457410003AB62D /* GreedyController.m */,
+				0930356811457D5E003AB62D /* EpsilonController.h */,
+				0930356911457D5E003AB62D /* EpsilonController.m */,
+				091EF7EC114705EA00B395A4 /* AverangerController.h */,
+				091EF7ED114705EA00B395A4 /* AverangerController.m */,
+				091EF853114711A100B395A4 /* SoftmaxController.h */,
+				091EF854114711A100B395A4 /* SoftmaxController.m */,
+			);
+			name = "Strategies controllers";
+			sourceTree = "<group>";
+		};
+		0930352C1145796C003AB62D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				093034F711457683003AB62D /* BaseStrategyController.h */,
+				093034F811457683003AB62D /* BaseStrategyController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		09B3D49E11386F99004E429E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09B3D4A011387003004E429E /* INBandit.h */,
+				09B3D49B11386F94004E429E /* IStrategy.h */,
+				093034D91145750F003AB62D /* IStrategyController.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		09B3D4FE113875AB004E429E /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				091EF84111470C4700B395A4 /* Base */,
+				091EF84011470C3B00B395A4 /* Softmax */,
+				091EF7301146FBBC00B395A4 /* Averanger */,
+				09DBE0621143FEEC00A56322 /* Epsilon Greedy */,
+				09DBE0611143FEE200A56322 /* Greedy */,
+			);
+			name = Strategies;
+			sourceTree = "<group>";
+		};
+		09B3D4FF113875BA004E429E /* Distributions */ = {
+			isa = PBXGroup;
+			children = (
+				099A636D1133F3BC00EE57C6 /* NormDistribution.h */,
+				099A636E1133F3BC00EE57C6 /* NormDistribution.m */,
+			);
+			name = Distributions;
+			sourceTree = "<group>";
+		};
+		09B3D500113875CA004E429E /* Bandit Models */ = {
+			isa = PBXGroup;
+			children = (
+				0976D4F41135CBA7001D8EF9 /* BanditModel.h */,
+				0976D4F51135CBA7001D8EF9 /* BanditModel.m */,
+			);
+			name = "Bandit Models";
+			sourceTree = "<group>";
+		};
+		09C0CF281142B14E003AA4AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09C0CF291142B160003AA4AD /* StaticView.h */,
+				09C0CF2A1142B160003AA4AD /* StaticView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09DBE0611143FEE200A56322 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				09B3D4EA1138739A004E429E /* GreedyStrategy.h */,
+				09B3D4EB1138739A004E429E /* GreedyStrategy.m */,
+			);
+			name = Greedy;
+			sourceTree = "<group>";
+		};
+		09DBE0621143FEEC00A56322 /* Epsilon Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				09DBE0531143FD5F00A56322 /* EpsilonStrategy.h */,
+				09DBE0541143FD5F00A56322 /* EpsilonStrategy.m */,
+			);
+			name = "Epsilon Greedy";
+			sourceTree = "<group>";
+		};
+		09DBE06F1143FF4600A56322 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				093035D311459120003AB62D /* StratigesArray.h */,
+				093035D411459120003AB62D /* StratigesArray.m */,
+				093034D811457434003AB62D /* Strategies controllers */,
+				09DBE3991144376300A56322 /* ModelProperties.h */,
+				09DBE39A1144376300A56322 /* ModelProperties.m */,
+				093035F61145987F003AB62D /* TesterController.h */,
+				093035F71145987F003AB62D /* TesterController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* n-Handeled Bandit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* n-Handeled Bandit */ = {
+			isa = PBXGroup;
+			children = (
+				093037181145B6DE003AB62D /* MyDocument.h */,
+				093037191145B6DE003AB62D /* MyDocument.m */,
+				09DBE06F1143FF4600A56322 /* Controllers */,
+				09C0CF281142B14E003AA4AD /* Views */,
+				09B3D49E11386F99004E429E /* Protocols */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				094470AF1135910F00C42FC3 /* NBanditTests-Info.plist */,
+				0944710F1135B24100C42FC3 /* Tests-Info.plist */,
+			);
+			name = "n-Handeled Bandit";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09B3D500113875CA004E429E /* Bandit Models */,
+				09B3D4FF113875BA004E429E /* Distributions */,
+				09B3D4FE113875AB004E429E /* Strategies */,
+				09B3D5531139C6D5004E429E /* Judge.h */,
+				09B3D5541139C6D5004E429E /* Judge.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* n_Handeled_Bandit_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* n_Handeled_Bandit-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* n-Handeled Bandit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "n-Handeled Bandit" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "n-Handeled Bandit";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "n-Handeled Bandit";
+			productReference = 8D15AC370486D014006FF6A4 /* n-Handeled Bandit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "n-Handeled Bandit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* n-Handeled Bandit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* n-Handeled Bandit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				099A636F1133F3BC00EE57C6 /* NormDistribution.m in Sources */,
+				09B3D5561139C6D5004E429E /* Judge.m in Sources */,
+				09C0CF2C1142B160003AA4AD /* StaticView.m in Sources */,
+				09C0D2CD1143181B003AA4AD /* BanditModel.m in Sources */,
+				09C0D30F11431A01003AA4AD /* GreedyStrategy.m in Sources */,
+				09DBE0551143FD5F00A56322 /* EpsilonStrategy.m in Sources */,
+				09DBE39B1144376300A56322 /* ModelProperties.m in Sources */,
+				093034D611457410003AB62D /* GreedyController.m in Sources */,
+				0930352911457959003AB62D /* BaseStrategyController.m in Sources */,
+				0930357211457E64003AB62D /* EpsilonController.m in Sources */,
+				093035D511459120003AB62D /* StratigesArray.m in Sources */,
+				093035F81145987F003AB62D /* TesterController.m in Sources */,
+				0930371A1145B6DE003AB62D /* MyDocument.m in Sources */,
+				091EF7341146FBDE00B395A4 /* AverangeStrategy.m in Sources */,
+				091EF7381146FC0000B395A4 /* BaseStrategy.m in Sources */,
+				091EF7EF114705EA00B395A4 /* AverangerController.m in Sources */,
+				091EF83F11470C3500B395A4 /* SoftmaxStrategy.m in Sources */,
+				091EF856114711A100B395A4 /* SoftmaxController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = n_Handeled_Bandit_Prefix.pch;
+				INFOPLIST_FILE = "n_Handeled_Bandit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "n-Handeled Bandit";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = n_Handeled_Bandit_Prefix.pch;
+				INFOPLIST_FILE = "n_Handeled_Bandit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "n-Handeled Bandit";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "n-Handeled Bandit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "n-Handeled Bandit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
